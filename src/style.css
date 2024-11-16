@@ -1,0 +1,90 @@
+body,
+input,
+forms,
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.header-conteiner {
+  background-image: url("/assets/pattern-bg-desktop2.png");
+  background-repeat: no-repeat;
+  display: grid;
+  background-repeat: no-repeat;
+  grid-template-columns: 900px;
+  gap: 40px;
+  justify-content: center;
+  position: relative;
+  height: 250px;
+}
+
+.header-conteiner h1 {
+  margin-top: 30px;
+  max-height: content;
+  color: white;
+  text-align: center;
+}
+
+input {
+  font-size: 24px;
+  padding: 10px;
+  outline: none;
+  width: 400px;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  background: white;
+}
+#map {
+  height: 600px;
+}
+
+.btn {
+  background: #000;
+  color: white;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  width: 50px;
+}
+
+.forms {
+  max-width: max-content;
+  display: flex;
+  height: 50px;
+  justify-self: center;
+}
+
+.result {
+  display: flex;
+  background: white;
+  padding: 20px;
+  gap: 50px;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.result div {
+  display: grid;
+  gap: 10px;
+}
+
+.result div:not(:last-child) {
+  border-right: 2px solid #d8d8d8;
+}
+
+.title {
+  color: #949494;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.api {
+  font-size: 32px;
+  font-weight: 700;
+}
